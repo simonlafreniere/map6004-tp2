@@ -1,4 +1,4 @@
-from excell_file_extration import ExcellExtractor
+from excel_file_extration import ExcelExtractor
 from khi2 import Khi2
 
 
@@ -11,7 +11,7 @@ def find_distance(matrice, row):
 
 if __name__ == "__main__":
     loc = "data.xlsx"
-    extractor = ExcellExtractor(loc)
+    extractor = ExcelExtractor(loc)
     matrice = extractor.extract_matrix()
     distances = []
     for i in range(len(matrice)):

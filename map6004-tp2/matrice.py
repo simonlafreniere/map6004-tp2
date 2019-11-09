@@ -1,3 +1,4 @@
+# pas utilisee mais eventuellement on devrait..
 class Matrice:
     # lignes ou col donnent le meme resultat
     @staticmethod

@@ -1,7 +1,8 @@
 import xlrd
 
 
-class ExcellExtractor:
+# basic lecture excel file
+class ExcelExtractor:
     def __init__(self, file):
         wb = xlrd.open_workbook(file)
         self.sheet = wb.sheet_by_index(0)

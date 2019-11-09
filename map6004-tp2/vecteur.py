@@ -15,9 +15,9 @@ class Vecteur:
             result.append(vector[i] / n)
         return result
 
-    @staticmethod
-    def get_total_row(vector):
-        total = 0
-        for col in range(len(vector)):
-            total += vector[col]
-        return total
+    # @staticmethod
+    # def get_total_row(vector):
+    #     total = 0
+    #     for col in range(len(vector)):
+    #         total += vector[col]
+    #     return total
