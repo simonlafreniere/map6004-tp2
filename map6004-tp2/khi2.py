@@ -1,4 +1,5 @@
 from matrice import Matrice
+from vecteur import Vecteur
 
 
 class Khi2:
@@ -30,7 +31,3 @@ class Khi2:
             for col in range(cols):
                 x2 += (originale[row][col] - expected[row][col]) ** 2 / expected[row][col]
         return x2
-
-    @staticmethod
-    def relative_freq(matrice):
-        f = ""
