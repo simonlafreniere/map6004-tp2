@@ -31,3 +31,11 @@ class Khi2:
             for col in range(cols):
                 x2 += (originale[row][col] - expected[row][col]) ** 2 / expected[row][col]
         return x2
+
+    @staticmethod
+    # distance entre 2 lignes
+    def distance(vecteur1, vecteur2):
+        dist = 0
+        for i in range(len(vecteur1)):
+            dist += (((vecteur1[i] - vecteur2[i]) ** 2) / (vecteur1[i] + vecteur2[i])) / 2
+        return dist
